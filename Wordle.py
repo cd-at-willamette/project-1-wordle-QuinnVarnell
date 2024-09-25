@@ -1,6 +1,6 @@
 ########################################
-# Name:
-# Collaborators (if any):
+# Name: Quinn Varnell
+# Collaborators (if any): Abygale Brien & Quad
 # GenAI Transcript (if any):
 # Estimated time spent (hr):
 # Description of any added extensions:
@@ -20,6 +20,12 @@ def wordle():
 
     gw = WordleGWindow()
     gw.add_enter_listener(enter_action)
+    word = "WAGER"
+    gw.set_square_letter(0, 0, word[0])
+    gw.set_square_letter(0, 1, word[1])
+    gw.set_square_letter(0, 2, word[2])
+    gw.set_square_letter(0, 3, word[3])
+    gw.set_square_letter(0, 4, word[4])
 
 
 
